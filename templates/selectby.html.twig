@@ -1,0 +1,3 @@
+{% for auteur in auteurs %}
+    <a href="{{ path('twig_auteur', {'id':auteur.id}) }}">{{ auteur.name}}<br></a>
+{% endfor %}

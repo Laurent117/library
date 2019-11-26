@@ -1,0 +1,10 @@
+{% for book in books %}
+
+<a href="{{ path('twig_book', {'id':book.id}) }}">{{ book.title}}<br></a>
+{% endfor %}
+
+<a href="{{ path('twig_auteurs') }}">
+    auteur
+</a>
+
+
